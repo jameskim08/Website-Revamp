@@ -143,25 +143,6 @@ header a:hover{
 	width:100%;
 }
 
-/*
-#projects .content{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-#projects p{
-	margin-top: 1em;
-	order: 1;
-}
-
-#projects img{
-	order: 2;
-	margin-top:1em;
-	max-width: 250px;
-	height: auto;
-} */
-
 #projects .content{
 	margin-top: 1em;
 }
@@ -240,16 +221,6 @@ header a:hover{
 	}
 	#main-nav li button{
 		margin: 0.25em 0;
-	}
-
-	#projects .content{
-		flex-direction: column;
-		justify-content: flex-start;
-	}
-
-	#projects p{
-		order: 3;
-		width: 100%;
 	}
 
 	#projects img{
