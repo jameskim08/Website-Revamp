@@ -9,7 +9,10 @@
 		<link rel="stylesheet" href="css/font-awesome.css">
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="icon" href="img/jyk-logo.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="img/favicon192x192.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon96x96.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon16x16.png">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
 	</head>
 
@@ -21,12 +24,12 @@
 					<h1>
 						Hello, my name is <a class="reload"><b>James Kim</b></a>. <br/>
 						Systems Design Engineering 2020. <br/>
-						I am an aspiring developer. <br/>
+						I am a web developer. <br/>
 					</h1>
 					<ul id="main-nav">
 						<li><button onclick="displayContent('work')" class="nav-btn work-btn">work</button></li>
 						<li><button onclick="displayContent('projects')" class="nav-btn projects-btn">projects</button></li>
-						<li><a href="2A Resume.pdf" target="_blank"><button>resume</button></a></li>
+						<li><a href="James Kim Resume.pdf" target="_blank"><button>resume</button></a></li>
 						<li><button onclick="displayContent('contact')" class="nav-btn contact-btn">contact</button></li>
 					</ul>
 				</div>
@@ -37,13 +40,39 @@
 				<!-- Work -->
 				<div id="work">
 					<div class="card">
+						<h1><b>Frontend Developer,</b></h1>
+						<h3>Shopify</h3>
+						<p> At Shopify, I worked in the Channels Platform team working on mainly two projects.<br/><br/>
+
+						The first project was building a channel that Shopify merchants can install to integrate their business with Facebook. Various tasks involved include form validation, UI building, and bugfixing. This was completed using React, Apollo, and GraphQL.<br/><br/>
+
+						The second project was leading the improvement of the Buy Button channel's test coverage. The Buy Button is one of the oldest and most used channel in Shopify, but have minimal and oudated tests. My rseponsibility was to create standards, write missing unit tests, and document any discoveries found through the tests. This was completed using Mocha, Sinon, and Chai.
+						</br></br>
+						</p>
+					</div>
+
+					<div class="card">
+						<h1><b>Web Application Engineer,</b></h1>
+						<h3>Taplytics</h3>
+						<p> At Taplytics, I first worked on a major project to build a graph editor using D3 within a very strict deadline. The graph editor was used to map out and customize complex user events. Afterwards, I created the user interface for Taplytics' new feature flagging system which includes UI building and form validation. One the feature was shipped to production, I worked on maintaining the current web application, web SDK, and chrome extension. Majority of my time was with React and Redux, with a little time spent with Angularjs.</br></br>
+						 </p>
+					</div>
+
+					<div class="card">
+						<h1><b>Fullstack Developer,</b></h1>
+						<h3>Sears Initium Commerce Lab</h3>
+						<p> During Sears, I worked on four projects. The first project was an internal tool to scrape competitor prices to match. I mainly worked on UI building with Angular in the frontend and Node with Express for the backend. The second project was working on a Spring Camel integration for a new point of sale system to replace legacy infrasturctures. The third project was working within the Netsuite enterprise resource planning system to integrate current processes for supply chain. The last project was to recreate the checkout system of the ecommerce website using React.</br></br>
+						 </p>
+					</div>
+
+					<div class="card">
 						<h1><b>eCommerce Developer,</b></h1>
 						<h3>Rogers Communications</h3>
 						<p> For my second internship, I worked for the largest telecommunications company in Canada, Rogers. I was placed into the Sales and Portals development team which is responsible for working on the website that dealers such as Apple or Best Buy use to sell Rogers services to clients. <br/><br/>
 
 						For majority of my time, I worked in the business as usual (BAU) team which followed the agile software development process using JIRA. I maintained the website through dealing with any bugs, mainly in Java, or implementing new features to the website using JavaScript, HTML, and CSS. I also introduced bind variables to one of the slower SQL databases to increase efficiency as well as security to the database. Aside from coding, I partcipiated in bi-weekly meetings to plan for sprints and assess current stories, daily scrum meetings to update my progress, and bi-monthly meetings to improve the software development life cycle. <br/><br/>
 
-						I later joined a waterfall project where my task was to take a freshly created web application and apply HTML, CSS, and JavaScript styling to match the brand and identity of Rogers. After completing the styling, I was tasked to create Java servlets to store user data into a database. </br></br>
+						I later joined a waterfall project where my task was to take a freshly created web application and apply HTML, CSS, and JavaScript styling to match the brand and identity of Rogers. After completing the styling, I was tasked to create ATG droplets to store user data into a database. </br></br>
 						 </p>
 					</div>
 
@@ -64,33 +93,38 @@
 				<!-- Projects -->
 				<div id="projects">
 					<div class="card">
-						<h1><b>Course Organizer</b></h1>
+						<h1><b>Avalon Mobile</b></h1>
 						<div class="content">
-							<img src="img/course-organizer.PNG" alt="Course Organizer"></img>
-							<p>Angular2, TypeScript, WebStorm <br/><br/>
-							To learn Angular, I followed the tutorial, "Tour of Heroes", on the Angular2 website but added more depth by implementing new features to create a new application, a course organizer. During the process, I also learned how to use Github and created documentation for each enhancement stating its functionality and requirements. The application uses multiple components, routing, services, and HTTP calls.
+							<img src="img/avalon-mobile.PNG" alt="Avalon Mobile"></img>
+							<p>
+							React Native, Redux<br/><br/>
+							Avalon Mobile is a mobile application that recreates the popular deception game, Avalon. It was created in collaboration with one frontend and three backend developers. My role was teaching the backend developers React Native and best frontend practices, creating mockups, managing meetings, and leading the frontend development.<br/><br/>
+							<a href="https://github.com/rxbchen/avalon-mobile">View the code &nbsp;→</a><br/>
 							</p>
 						</div>
 					</div>
 
 					<div class="card">
-						<h1><b>Flappy Bird</b></h1>
+						<h1><b>Pomelo</b></h1>
 						<div class="content">
-							<img src="img/flappy-bird.png" alt="Flappy Bird"></img>
-							<p>Android Studio, Java, XML, libGDX <br/><br/>
-							Flappy bird was created using Android Studio and the framework, libGDX. It involved coding the physics of the bird, animation, detecting hitbox, and a scoring system.
+							<img src="img/pomelo-logo.svg" alt="Pomelo"></img>
+							<p>
+							IN PROGRESS<br/>
+							React, Redux<br/><br/>
+							Pomelo is a knowledge base platform for teams. It is used to organize company information in one place to increase alignment, streamline onboarding, and speed up knowledge transfer. Pomelo is developed in collaboration with a designer, two developers, and a product manager. My role is leading the frontend development of the application. 							
 							</p>	
 						</div>
 					</div>
 
 					<div class="card">
-						<h1><b>Website Portfolio</b></h1>
+						<h1><b>Swagify</b></h1>
 						<div class="content">
-							<img src="img/website-portfolio.PNG" alt="Website Portfolio Mobile"></img>
-							<p>JavaScript, JQuery, HTML, CSS <br/><br/>
-							I first coded my website in my first year of university to teach myself HTML, CSS, and JavaScript. However, the first design was difficult to maintain and the code was difficult to read. <br/><br/>
+							<img src="img/swagify.PNG" alt="Swagify"></img>
+							IN PROGRESS<br/>
+							<p>Xamarin, XAML<br/><br/>
+							Swagify is a web scraping mobile application that runs through various merchandise websites to deliver the cheapest prices for given products to the user as well as email users when there are sales for selected products. The application is under the development of three developers.<br/><br/>
 
-							In order to improve the website, I collaborated with a designer to revamp the website into one that focuses on usability with a simple and clean design. I also refined my code by making it easy to read, maintain, and implement features to. The site is both desktop and mobile friendly and uses JQuery for simple animations to add flow.
+							The design is currently in progress.
 							</p>	
 						</div>
 					</div>
